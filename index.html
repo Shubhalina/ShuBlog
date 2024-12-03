@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shubha</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        /* Custom styles can be added here */
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Custom button hover effect */
+        .btn-create-blog:hover,
+        .btn-view-posts:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body class="font-sans">
+    <!-- Header Section -->
+    <div class="relative z-10">
+        <div class="absolute inset-0 z-1 bg-gradient-to-r from-pink-500 to-purple-500"></div>
+
+    <img class="absolute inset-0 w-full h-full object-cover opacity-80 z-0" src="keyboard-tea-cup-apple-office-stationeries-black-background.jpg" alt="nahi hai">
+    <div class="relative">
+    <nav id="navbar" class="fixed top-0 left-0 w-full flex items-center justify-between px-16 py-4 bg-transparent">
+
+             <h1 class="text-white text-2xl font-bold">DIMSHUBLOG</h1>
+
+        <div>
+            <a href="#features" class="text-white hover:text-gray-300 mx-4">Features</a>
+            
+            <a href="#contact" class="text-white hover:text-gray-300 mx-4">Contact</a>
+        </div>
+    </nav>
+
+    <header class="py-16  h-screen text-white z-2">
+        <div class="container mt-52 mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Start Blogging Today!</h2>
+            <p class="text-lg mb-8">Join our community of passionate bloggers and share your ideas with the world.</p>
+            <a href="Login.php" class="btn-create-blog inline-block bg-white text-pink-500 font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-white hover:text-pink-500 transition duration-300 ease-in-out">Create Your Blog</a>
+            <a href="userlogin.php" class="btn-view-posts inline-block bg-white text-purple-500 font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-white hover:text-purple-500 transition duration-300 ease-in-out">View Posts</a>
+        </div>
+    </header>
+    </div>
+    </div>
+
+    
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Discover Our Features</h2>
+            <div class="mt-10 mb-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="animate__animated animate__fadeInUp bg-white rounded-lg p-6">
+                    <i class="fas fa-pencil-alt text-5xl text-purple-600 mb-4"></i>
+                    <h3 class="text-lg font-semibold mb-2">Easy Blog Creation</h3>
+                    <p class="text-gray-600">Create your own blog effortlessly with our intuitive platform.</p>
+                </div>
+                <div class="animate__animated animate__fadeInUp bg-white rounded-lg p-6">
+                    <i class="fas fa-comments text-5xl text-blue-600 mb-4"></i>
+                    <h3 class="text-lg font-semibold mb-2">Engage with Readers</h3>
+                    <p class="text-gray-600">Connect with your audience through comments and discussions.</p>
+                </div>
+                <div class="animate__animated animate__fadeInUp bg-white rounded-lg p-6">
+                    <i class="fas fa-chart-line text-5xl text-green-600 mb-4"></i>
+                    <h3 class="text-lg font-semibold mb-2">Track Your Progress</h3>
+                    <p class="text-gray-600">Analyze your blog's performance with built-in analytics tools.</p>
+                </div>
+                <div class="animate__animated animate__fadeInUp bg-white rounded-lg p-6">
+                    <i class="fas fa-mobile-alt text-5xl text-orange-600 mb-4"></i>
+                    <h3 class="text-lg font-semibold mb-2">Responsive Design</h3>
+                    <p class="text-gray-600">Enjoy a seamless blogging experience on any device.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-gray-100">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-12">
+            <div class="flex items-center justify-center">
+                <i class="fas fa-envelope text-5xl text-gray-600"></i>
+                <div class="ml-4">
+                    <h3 class="text-lg font-semibold mb-2">Email</h3>
+                    <p class="text-gray-600">contact@dimshublog.com</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center">
+                <i class="fas fa-phone-alt text-5xl text-gray-600"></i>
+                <div class="ml-4">
+                    <h3 class="text-lg font-semibold mb-2">Phone</h3>
+                    <p class="text-gray-600">+1 (123) 456-7890</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center">
+                <i class="fas fa-map-marker-alt text-5xl text-gray-600"></i>
+                <div class="ml-4">
+                    <h3 class="text-lg font-semibold mb-2">Address</h3>
+                    <p class="text-gray-600">123 Street, City, Country</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Footer Section -->
+    <footer id="footer" class="bg-gradient-to-r from-pink-900 to-purple-900 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; DimShuBlog 2024. All rights reserved.</p>
+            <div class="mt-4">
+                <a href="#" class="text-white hover:text-gray-300 mx-2">Terms of Service</a>
+                <span class="text-white">|</span>
+                <a href="#" class="text-white hover:text-gray-300 mx-2">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Smooth Scroll Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

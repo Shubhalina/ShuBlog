@@ -1,0 +1,24 @@
+<?php require_once("includes/DB.php"); ?>
+<?php require_once("includes/Function.php"); ?>
+<?php require_once("includes/Sessions.php"); ?>
+
+<?php 
+    if(isset($_GET["id"])){
+        $id_From_URl = $_GET["id"];
+        
+        $sql = "DELETE FROM user_info WHERE user_id='$id_From_URl'";
+
+        $Execute = $ConnectingDB->query($sql);
+         if ($Execute) {
+         $_SESSION["SuccessMessage"]="User Deleted Successfully ! ";
+        Redirect_to("users.php");
+    
+        }else {
+          $_SESSION["ErrorMessage"]="Something Went Wrong. Try Again !";
+         Redirect_to("user.php");
+  }
+
+    }
+
+
+?>

@@ -1,0 +1,154 @@
+/* nav bar CSS */
+/*all nav bar id's*/
+#scroll {
+  width: 280px;
+  height: 100%;
+  overflow: hidden;
+}
+
+#left-nav-bar {
+  height: 100%;
+  width: 280px;
+  position: fixed;
+  overflow-y: scroll;
+ }
+
+#circle {
+  background: url('') left no-repeat;
+  width: 100px;
+  height: 100px;
+  border: 5px solid white;
+  border-radius: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#header-name {
+  color: white;
+}
+
+#nav-paragraph{
+  color: white;
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+
+#nav-footer {
+  background: rgba(255,255,255, 0);
+  border-top: 1px solid rgba(255,255,255,0.2);
+  position: fixed;
+  bottom: 0;
+  width: inherit;
+  color: white;
+}
+#footer-user {
+  color: white;
+  font-size: 25px;
+  margin-right: 23px;
+  margin-left: -43px;
+}
+
+#footer-folder {
+  color: white;
+  font-size: 25px;
+  margin-right: 20px;
+  margin-left: -30px;
+} 
+
+#footer-database {
+  color: white;
+  font-size: 25px;
+  margin-right: 22px;
+  margin-left: -37px;
+}
+
+#footer-envelope {
+  color: white;
+  font-size: 25px;
+  margin-right: 20px;
+  margin-left: -30px;
+} 
+/* Class for Nav Bar footer*/
+.side-footer-icon {
+  color: rgba(255,255,255);
+  opacity: 0.3;
+  font-size: 25px;
+  margin: 10px 20px 10px 20px;
+}
+
+/*i:hover {
+  color: white;
+}*/
+/*End of Nav bar CSS above.*/
+
+/* Container stacks CSS below */
+#container1 {
+  background: url('http://wallpaper.zone/img/60028.jpg') center no-repeat;
+  width: 100%;
+  height: 500px;
+}
+
+#opacity {
+  width: 100%;
+  height: 500px;
+  background: rgba(0,0,0,0.1);
+}
+#container1-header-wrapper {
+  margin-top: 30px;
+  padding-left: 5px;
+}
+
+#c1-header-text {
+  font-family: BenchNine;
+  font-size: 40px
+}
+#c1-header2-text {
+  font-family: BenchNine;
+  font-size: 27px
+}
+
+#container1-header {
+  Color: white;
+  width: 500px;
+  border-bottom: 2px solid white;
+}
+
+#container1-text-wrapper {
+  border: 0px solid rgba(255,255,255,0.4);
+  border-radius: 10px;
+  color: rgba(255,255,255,1);
+  margin-top: 15px;
+  height: 200px;
+  width: 700px;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.intro {
+  font-size: 25px
+}
+
+#container2 {
+  background: teal;
+  width: 100%;
+  height: 500px;
+}
+
+#container3 {
+  background: white;
+  width: 100%;
+  height: 500px;
+}
+
+#container4 {
+  background: darkgrey;
+  width: 100%;
+  height: 400px;
+}
+
+#container5 {
+  background: lightgrey;
+  width: 100%;
+  height: 100px;
+}
